@@ -8,7 +8,6 @@ variables:
   buildConfiguration: 'Release'
 
 pr:
-- master
 - releases/*
 
 steps:
