@@ -6,10 +6,14 @@ pool:
   
 variables:
   buildConfiguration: 'Release'
+  
+trigger:
+  - master
+  - users/steved0x/*
 
 pr:
-- master
 - releases/*
+- master
 
 steps:
 - script: |
