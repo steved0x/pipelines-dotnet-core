@@ -7,7 +7,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
   
-  trigger:
+trigger:
   - master
   - users/steved0x/*
 
