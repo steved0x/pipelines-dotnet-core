@@ -10,6 +10,9 @@ variables:
 trigger:
   - master
   - users/steved0x/*
+  branches:
+    exclude:
+    - users/hhh/*
 
 pr:
 - releases/*
