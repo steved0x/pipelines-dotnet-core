@@ -15,10 +15,6 @@ trigger:
    exclude:
     - users/hhh/*
 
-pr:
-- releases/*
-- master
-
 steps:
 - script: |
     dotnet build --configuration $(buildConfiguration)
