@@ -8,10 +8,11 @@ variables:
   buildConfiguration: 'Release'
   
 trigger:
-  - master
-  - users/steved0x/*
-  branches:
-    exclude:
+ branches:
+   include:
+    - master
+    - users/steved0x/*
+   exclude:
     - users/hhh/*
 
 pr:
