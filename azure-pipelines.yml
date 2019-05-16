@@ -8,12 +8,10 @@ variables:
   buildConfiguration: 'Release'
   
 trigger:
- branches:
-   include:
-    - master
-    - users/steved0x/*
-   exclude:
-    - users/hhh/*
+  tags:
+    include:
+    - sd
+
 
 steps:
 - script: |
