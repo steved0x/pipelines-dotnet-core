@@ -8,9 +8,10 @@ variables:
   buildConfiguration: 'Release'
   
 trigger:
-  tags:
-    include:
-    - sd
+- '*'
+
+pr:
+- '*'
 
 
 steps:
