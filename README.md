@@ -1,7 +1,7 @@
 # Sample ASP.NET Core application for Azure Pipelines docs
 
 CI commit edit
-PR commit edit
+PR commit edit 2
 
 TODO adding some stuff to make a change
 TODO 2nd change
